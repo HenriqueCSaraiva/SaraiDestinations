@@ -1,0 +1,10 @@
+.banner__img{
+    background-image: url(../../img/banner-koldalen.jpg);
+    background-position-x: 50%;
+    background-position-y: 65%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+

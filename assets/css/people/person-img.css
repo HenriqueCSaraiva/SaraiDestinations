@@ -1,0 +1,27 @@
+.person__img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    display: flex;
+    height: 300px;
+    left:0px;
+    margin:0 auto;
+    top:0px;
+    width: 300px;
+ 
+}
+
+.person__img--philip{
+    background-image: url('../../img/people/philip-martin.jpg');
+}
+
+.person__img--tachina{
+    background-image: url('../../img/people/tachina-lee.jpg');
+}
+
+.person__img--albert{
+    background-image: url('../../img/people/albert-dera.jpg');   
+    background-position: top;
+}
+

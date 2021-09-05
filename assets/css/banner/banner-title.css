@@ -1,0 +1,24 @@
+.banner__title{
+    color: #fdfdff;
+    font-family: 'Kaushan Script', cursive;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+@media (min-width: 0) {
+    .banner__title{
+    font-size: 3.0625rem;
+    top: 60%;
+}
+}
+
+@media (min-width: 768px){
+.banner__title{
+    font-size: 5.0625rem;
+}
+}

@@ -1,0 +1,17 @@
+.sub__description{
+    color: #595959;
+    
+    font-weight: 100;
+}
+
+@media (min-width:0){
+    .sub__description{
+    font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 768px){
+    .sub__description{
+    font-size: 1.75rem;
+}
+}

@@ -1,0 +1,8 @@
+.explore__img{
+    background-image: url(../../img/alpine-climbing.jpg);
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}

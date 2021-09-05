@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="Utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>SaraiDestinations</title>
+    <link rel="icon" href="assets/img/Logo.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/header/header.css" />
+    <link rel="stylesheet" href="assets/css/banner/banner.css" />
+    <link rel="stylesheet" href="assets/css/banner/banner-img.css" />
+    <link rel="stylesheet" href="assets/css/banner/banner-title.css" />
+    <link rel="stylesheet" href="assets/css/sub/sub.css" />
+    <link rel="stylesheet" href="assets/css/sub/sub-title.css" />
+    <link rel="stylesheet" href="assets/css/sub/sub-description.css" />
+    <link rel="stylesheet" href="assets/css/mainDestination/maindestination.css" />
+    <link rel="stylesheet" href="assets/css/mainDestination/destination-title.css" />
+    <link rel="stylesheet" href="assets/css/mainDestination/card.css" />
+    <link rel="stylesheet" href="assets/css/explore/explore.css" />
+    <link rel="stylesheet" href="assets/css/explore/explore-img.css" />
+    <link rel="stylesheet" href="assets/css/explore/explore-title.css" />
+    <link rel="stylesheet" href="assets/css/weAre/weAre.css" />
+    <link rel="stylesheet" href="assets/css/weAre/weAre-title.css" />
+    <link rel="stylesheet" href="assets/css/weAre/weAre-description.css" />
+    <link rel="stylesheet" href="assets/css/people/people.css" />
+    <link rel="stylesheet" href="./assets/css/people/person.css" />
+    <link rel="stylesheet" href="./assets/css/people/person-img.css" />
+    <link rel="stylesheet" href="./assets/css/people/person-name.css" />
+    <link rel="stylesheet" href="assets/css/people/person-function.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+
+
+</head>
+
+<body>
+    <header class="navmenu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img alt="SaraiDestinations_Logo" src="assets/img/Logo.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#banner">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#destination-card">Principales Destinos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#we-are">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="modal" data-target="#modal-contact">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="index_ES.html" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false"><span class="iconify"
+                                    data-icon="twemoji:flag-for-flag-spain"></span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                <li><a class="dropdown-item" href="index_PTBR.html">
+                                        <span class="iconify" data-icon="twemoji:flag-for-flag-brazil"></span></a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="index_ENG.html"><span class="iconify"
+                                            data-icon="twemoji:flag-for-flag-us-outlying-islands"></span></a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="index_FR.html"><span class="iconify"
+                                            data-icon="twemoji:flag-for-flag-france"></span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="banner" id="banner">
+        <img class="banner__img">
+        <h2 class="banner__title">Menos rutina, más guiones</h2>
+    </section>
+
+    <section class="sub">
+        <h2 class="sub__title">Viajar no es un gasto, es una inversión</h2>
+        <p class="sub__description">¡Todos los viajes son inolvidables porque siempre marcan nuestro corazón con algo
+            nuevo!
+        </p>
+    </section>
+
+    <section id="destination-card" class="maindestination">
+        <div class="destination row justify-content-sm-center">
+            <h2 class="destination__title">Principales Destinos</h2>
+
+            <div class="card p-0 m-4 col-12 col-md-4" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/img/destination-img/disney.jpg"
+                    alt="Vista del Magic Kingdom, Disney">
+                <div class="card-body">
+                    <h5 class="card-title">Disney</h5>
+                    <p class="card-text">Ve a ver el mundo. En vivo, es más fantástico que cualquier sueño.</p>
+                    <a href="#" class="btn btn-primary">Ver Destino</a>
+                </div>
+            </div>
+
+            <div class="card p-0 m-4 col-12 col-md-4" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/img/destination-img/london.jpg"
+                    alt="Vista aérea, Big Ben y London Eye">
+                <div class="card-body">
+                    <h5 class="card-title">Londres</h5>
+                    <p class="card-text">Ve a ver el mundo. En vivo, es más fantástico que cualquier sueño.</p>
+                    <a href="#" class="btn btn-primary">Ver Destino</a>
+                </div>
+            </div>
+
+
+            <div class="card p-0 m-4 col-12 col-md-4" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/img/destination-img/paris.jpeg" alt="Visión de la torre eiffel">
+                <div class="card-body">
+                    <h5 class="card-title">Paris</h5>
+                    <p class="card-text">Ve a ver el mundo. En vivo, es más fantástico que cualquier sueño.</p>
+                    <a href="#" class="btn btn-primary">Ver Destino</a>
+                </div>
+            </div>
+
+
+            <div class="card p-0 m-4 col-12 col-md-4" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/img/destination-img/tokyo.jpg" alt="Vista aérea Tokyo">
+                <div class="card-body">
+                    <h5 class="card-title">Tokyo</h5>
+                    <p class="card-text">Ve a ver el mundo. En vivo, es más fantástico que cualquier sueño.</p>
+                    <a href="#" class="btn btn-primary">Ver Destino</a>
+                </div>
+            </div>
+
+
+            <div class="card p-0 m-4 col-12 col-md-4" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/img/destination-img/rio-rio-de-janeiro.jpg"
+                    alt="Vista aérea del Rio de Janeiro y Cristo">
+                <div class="card-body">
+                    <h5 class="card-title">Rio de Janeiro</h5>
+                    <p class="card-text">Ve a ver el mundo. En vivo, es más fantástico que cualquier sueño.</p>
+                    <a href="#" class="btn btn-primary">Ver Destino</a>
+                </div>
+            </div>
+
+
+            <div class="card p-0 m-4 col-12 col-md-4" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/img/destination-img/sydney.jpg"
+                    alt="vista de la ópera de Sydney">
+                <div class="card-body">
+                    <h5 class="card-title">Syney</h5>
+                    <p class="card-text">Ve a ver el mundo. En vivo, es más fantástico que cualquier sueño.</p>
+                    <a href="#" class="btn btn-primary">Ver Destino</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <img class="explore__img">
+        <h2 class="explore__title">Explorar el mundo</h2>
+    </section>
+
+    <!-- This images are free to use under the Unsplash License -->
+    <section class="we-are" id="we-are">
+        <h3 class="we-are__title">Sobre nosotros</h3>
+        <p class="we-are__description">Conoce a nuestros fundadores</p>
+        <div class="people">
+            <div class="person">
+                <div class="person__img person__img--philip"></div>
+                <span class="person__name">Philip Martin</span>
+                <span class="person__function">Marketing</span>
+            </div>
+            <div class="person">
+                <div class="person__img person__img--tachina"></div>
+                <span class="person__name">Thachina Lee</span>
+                <span class="person__function">CEO</span>
+            </div>
+            <div class="person">
+                <div class="person__img person__img--albert"></div>
+                <span class="person__name">Albert Dera</span>
+                <span class="person__function">Developer</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        Contacto: ejemplo@email.com
+    </footer>
+
+    <!-- Modal -->
+    <section class="modal fade" id="modal-contact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <dialog class="modal-content">
+                <header class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contacto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </header>
+                <main class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Nombre completo</label>
+                            <input type="text" class="form-control" placeholder="Insertar su nombre completo"
+                                id="formGroupExampleInput">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Correo electrónico</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="nombre@ejemplo.com">
+                        </div>
+                        <div class="form-group">
+
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Deje su comentario</label>
+                                <textarea class="form-control" placeholder="Inserta tu comentario aquí"
+                                    id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                    </form>
+                </main>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn special-color-button btn-primary submit-button">Enviar</button>
+                </footer>
+            </dialog>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
